@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="20.843">
+    <testcase classname="E-Commerce Application" name="taking The Count Of Product" time="20.016">
+        <system-out><![CDATA[Given user Launch The Url...................................................passed
+When user Mouseover To Kids Section.........................................passed
+And select For T-Shirt......................................................passed
+Then getting The Count Of The Product.......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="E-Commerce Application" name="getting The Min Price Of The Product" time="0.584">
+        <system-out><![CDATA[When taking X-path For Discounted Price With Reference Of product Base......passed
+And add All Price To The List...............................................passed
+Then getting Min Price......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="E-Commerce Application" name="getting Product Name For Min Price" time="0.041">
+        <system-out><![CDATA[When user Pass The Min Price On X-path......................................passed
+Then validate The Brand name................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="E-Commerce Application" name="getiing Sub-brand Name Of Product Name" time="0.031">
+        <system-out><![CDATA[Then getting The Sub-brand Name.............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
